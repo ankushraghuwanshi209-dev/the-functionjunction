@@ -97,7 +97,7 @@ export function BookingForm() {
     <form onSubmit={handleSubmit(onSubmit)} className="grid md:grid-cols-2 gap-x-8 gap-y-6">
       <div>
         <label className={label}>Full Name</label>
-        <input {...register("name")} className={field} placeholder="Isabella Laurent" />
+        <input {...register("name")} className={field} placeholder="Your Name" />
         {errors.name && <p className="text-xs text-destructive mt-1">{errors.name.message}</p>}
       </div>
       <div>
@@ -107,7 +107,7 @@ export function BookingForm() {
       </div>
       <div>
         <label className={label}>Phone</label>
-        <input {...register("phone")} className={field} placeholder="+1 (555) 000-0000" />
+        <input {...register("phone")} className={field} placeholder="+91 96********" />
         {errors.phone && <p className="text-xs text-destructive mt-1">{errors.phone.message}</p>}
       </div>
       <div>

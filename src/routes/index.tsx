@@ -261,7 +261,7 @@ function HydratedHome() {
         </div>
       </div>
 
-      <div id="contact" className="mx-auto max-w-7xl px-6 py-24 md:px-10 lg:px-12">
+      <div id="contact" className="mx-auto max-w-7xl px-6 py-24 md:px-10 lg:px-12 overflow-x-hidden">
         <SectionHeading
           eyebrow="Contact"
           title="Begin with a private consultation."
@@ -272,12 +272,18 @@ function HydratedHome() {
             <p className="text-base leading-8 text-muted-foreground max-w-2xl">
               Share the vision for your celebration and we’ll arrange a personal conversation about the experience you want to create.
             </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a href="mailto:thefunctionjunction2141@gmail.com" className="border border-gold px-6 py-3 text-[11px] tracking-[0.3em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all">
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:justify-start">
+              <a
+                href="mailto:thefunctionjunction2141@gmail.com"
+                className="w-full sm:w-auto min-w-0 inline-flex items-center justify-center text-center break-all whitespace-normal border border-gold px-6 py-3 text-[11px] tracking-[0.16em] sm:tracking-[0.3em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all"
+              >
                 thefunctionjunction2141@gmail.com
               </a>
-              <a href="tel:+91 8517092141" className="border border-border px-6 py-3 text-[11px] tracking-[0.3em] uppercase text-foreground hover:border-gold hover:text-gold transition-all">
-               +91 8517092141
+              <a
+                href="tel:+91 8517092141"
+                className="w-full sm:w-auto inline-flex items-center justify-center text-center border border-border px-6 py-3 text-[11px] tracking-[0.16em] sm:tracking-[0.3em] uppercase text-foreground hover:border-gold hover:text-gold transition-all"
+              >
+                +91 8517092141
               </a>
             </div>
           </div>

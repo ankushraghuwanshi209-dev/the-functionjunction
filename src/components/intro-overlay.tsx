@@ -13,7 +13,7 @@ export function IntroOverlay() {
 
   useEffect(() => {
     if (!visible) return;
-    const timeout = setTimeout(() => dismiss(), 7200);
+    const timeout = setTimeout(() => dismiss(), 6200);
     return () => clearTimeout(timeout);
   }, [visible]);
 
@@ -142,7 +142,7 @@ export function IntroOverlay() {
     <div
       onClick={dismiss}
       className="fixed inset-0 z-[100] flex items-center justify-center bg-background cursor-pointer"
-      style={{ animation: "tfjFadeOut 0.6s ease 6.2s forwards" }}
+      style={{ animation: "tfjFadeOut 0.6s ease 5.2s forwards" }}
     >
       <canvas ref={canvasRef} className="absolute inset-0 h-full w-full z-0" />
       <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background/80" />
