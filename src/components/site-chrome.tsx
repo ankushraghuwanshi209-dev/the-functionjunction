@@ -127,8 +127,8 @@ export function SiteFooter() {
         <div>
           <h4 className="text-[11px] tracking-[0.3em] uppercase text-gold mb-4">Contact</h4>
           <ul className="space-y-2.5 text-sm text-muted-foreground">
-            <li>hello@thefunctionjunction.com</li>
-            <li>+1 (555) 010-0100</li>
+            <li>thefunctionjunction2141@gmail.com</li>
+            <li>+91 8517092141</li>
             <li>By appointment only</li>
           </ul>
         </div>

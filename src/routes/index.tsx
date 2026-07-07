@@ -273,11 +273,11 @@ function HydratedHome() {
               Share the vision for your celebration and we’ll arrange a personal conversation about the experience you want to create.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="mailto:hello@thefunctionjunction.com" className="border border-gold px-6 py-3 text-[11px] tracking-[0.3em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all">
-                hello@thefunctionjunction.com
+              <a href="mailto:thefunctionjunction2141@gmail.com" className="border border-gold px-6 py-3 text-[11px] tracking-[0.3em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all">
+                thefunctionjunction2141@gmail.com
               </a>
-              <a href="tel:+15550100100" className="border border-border px-6 py-3 text-[11px] tracking-[0.3em] uppercase text-foreground hover:border-gold hover:text-gold transition-all">
-                +1 (555) 010-0100
+              <a href="tel:+91 8517092141" className="border border-border px-6 py-3 text-[11px] tracking-[0.3em] uppercase text-foreground hover:border-gold hover:text-gold transition-all">
+               +91 8517092141
               </a>
             </div>
           </div>
